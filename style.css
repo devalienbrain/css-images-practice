@@ -6,13 +6,18 @@
   height: 75vh;
   border: 1px solid red;
   display: flex;
+
 }
 
 .box {
   flex: 50%;
+  /* object-fit: cover; */
 }
 
 img {
   width: 100%;
+  /* or any custom size */
   border: 2px solid greenyellow;
+  height: 100%;
+  object-fit: contain;
 }
