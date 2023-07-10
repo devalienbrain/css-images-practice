@@ -3,10 +3,16 @@
 }
 
 .container {
-  height: 100vh;
+  height: 75vh;
   border: 1px solid red;
+  display: flex;
+}
+
+.box {
+  flex: 50%;
 }
 
 img {
   width: 100%;
+  border: 2px solid greenyellow;
 }
